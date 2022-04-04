@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenge/pages/first_splash.dart';
+import 'package:flutter_ui_challenge/pages/second_splash.dart';
+import 'package:flutter_ui_challenge/pages/ui_buttons.dart';
 
 void main() => runApp(const SevenDays());
 
@@ -10,7 +12,9 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstSplash(),
+      // home: FirstSplash(),
+      home: SecondSplash(),
+      // home: UIButtonShowCase(),
     );
   }
 }

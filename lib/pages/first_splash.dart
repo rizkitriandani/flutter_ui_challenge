@@ -14,7 +14,9 @@ class FirstSplash extends StatelessWidget {
           children: [
             Center(child: Image.asset('assets/sword.png', width: 140,)),
             const SizedBox(height: 170,),
-            Text('VENTURE', style:GoogleFonts.dmSerifDisplay(color: Colors.white,fontWeight: FontWeight.normal,letterSpacing: 2.9,fontSize: 28))
+            Text('VENTURE', style:GoogleFonts.dmSerifDisplay(color: Colors.white,fontWeight: FontWeight.normal,letterSpacing: 2.9,fontSize: 28)),
+            
+
           ],
         ),
       ),
