@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_challenge/pages/first_get_started.dart';
 import 'package:flutter_ui_challenge/pages/first_splash.dart';
 import 'package:flutter_ui_challenge/pages/second_splash.dart';
 import 'package:flutter_ui_challenge/pages/ui_buttons.dart';
@@ -13,7 +14,8 @@ class SevenDays extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: FirstSplash(),
-      home: SecondSplash(),
+      // home: SecondSplash(),
+      home: FirstGetStarted(),
       // home: UIButtonShowCase(),
     );
   }
