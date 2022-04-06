@@ -23,16 +23,21 @@ class FirstGetStarted extends StatelessWidget {
                 Text('Maximize Revenue',
                     style: GoogleFonts.poppins(
                       color: Colors.white,
-                      fontSize: 24,
+                      fontSize: 20,
                       fontWeight: FontWeight.w600,
                     )),
-                Text(
-                  'Gain more profit from cryptocurrency without any risk involved',
-                  style: GoogleFonts.poppins(
-                    color: Colors.white,
-                    fontSize: 16,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 
+                  10),
+                  child: Text(
+                    'Gain more profit from cryptocurrency without any risk involved',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 14,
+                    ),
+                    textAlign: TextAlign.center,
+                    
                   ),
-                  textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 50),
                 SizedBox(
