@@ -11,12 +11,13 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
+        showPerformanceOverlay: false,
         // home: FirstSplash(),
         // home: SecondSplash(),
         // home: FirstGetStarted(),
         home: ResponsiveSizer(
-        // home: SecondGetStarted(),
-            builder: (context, orientation, screenType) => const FirstSignIn(),
+          // home: SecondGetStarted(),
+          builder: (context, orientation, screenType) => const FirstSignIn(),
         )
         // home: UIButtonShowCase(),
         );
