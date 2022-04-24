@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_challenge/pages/first_get_started.dart';
-import 'package:flutter_ui_challenge/pages/first_splash.dart';
-import 'package:flutter_ui_challenge/pages/second_get_started.dart';
-import 'package:flutter_ui_challenge/pages/second_splash.dart';
-import 'package:flutter_ui_challenge/pages/ui_buttons.dart';
+import 'package:flutter_ui_challenge/pages/first_signin.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 
 void main() => runApp(const SevenDays());
 
@@ -12,13 +9,16 @@ class SevenDays extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      // home: FirstSplash(),
-      // home: SecondSplash(),
-      // home: FirstGetStarted(),
-      home: SecondGetStarted(),
-      // home: UIButtonShowCase(),
-    );
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        // home: FirstSplash(),
+        // home: SecondSplash(),
+        // home: FirstGetStarted(),
+        home: ResponsiveSizer(
+        // home: SecondGetStarted(),
+            builder: (context, orientation, screenType) => const FirstSignIn(),
+        )
+        // home: UIButtonShowCase(),
+        );
   }
 }

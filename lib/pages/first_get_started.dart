@@ -27,8 +27,7 @@ class FirstGetStarted extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                     )),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 
-                  10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Text(
                     'Gain more profit from cryptocurrency without any risk involved',
                     style: GoogleFonts.poppins(
@@ -36,7 +35,6 @@ class FirstGetStarted extends StatelessWidget {
                       fontSize: 14,
                     ),
                     textAlign: TextAlign.center,
-                    
                   ),
                 ),
                 const SizedBox(height: 50),
@@ -49,10 +47,7 @@ class FirstGetStarted extends StatelessWidget {
                         backgroundColor: const Color(0xff877BFB),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(50))),
-                    child: Container(
-                      child:
-                          Image.asset('assets/ic_login_arrow.png', width: 28),
-                    ),
+                    child: Image.asset('assets/ic_login_arrow.png', width: 28),
                   ),
                 ),
               ],
