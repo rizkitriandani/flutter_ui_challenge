@@ -12,6 +12,7 @@ class SevenDays extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         showPerformanceOverlay: false,
+        /*  */
         // home: FirstSplash(),
         // home: SecondSplash(),
         // home: FirstGetStarted(),
